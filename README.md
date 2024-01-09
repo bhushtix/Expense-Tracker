@@ -18,6 +18,7 @@ This function uses the filter function to filter expenses based on the specified
 main():
 
 This is the main function that handles the user interface and overall flow of the program.
+
 Main Program:
 Expense List (expenses):
 
@@ -30,11 +31,11 @@ List all expenses: Prints all expenses in the list.
 Show total expenses: Displays the total sum of all expenses.
 Filter expenses by category: Asks the user to input a category and then displays expenses only for that category.
 Exit: Exits the program.
+
 User Input Handling:
-
 The program uses a while True loop to keep the user in the menu until they choose to exit.
-Function Calls:
 
+Function Calls:
 Depending on the user's choice, the program calls the corresponding functions:
 Add an expense: Calls add_expense (which seems to be missing in your provided code).
 List all expenses: Calls print_expenses.
