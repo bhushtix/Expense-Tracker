@@ -3,6 +3,7 @@
 This program is like a digital wallet where you can add expenses, see a list of what you spent, check the total amount spent, and filter expenses by category. It's a straightforward command-line tool with a menu-driven interface. Just type in your choice, and it does the math and organization for you. If you're done, there's an exit option to gracefully leave the digital expense world.
 
 # Detailed Explanation of program:
+
 # Functions:
 
 total_expenses(expenses):
