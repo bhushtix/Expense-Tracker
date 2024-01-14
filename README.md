@@ -4,53 +4,52 @@ This program is like a digital wallet where you can add expenses, see a list of 
 
 # Detailed Explanation of program:
 
-# Functions:
+No worries! If copying the formatted text is challenging, I can provide you with a simplified version without bullet points and numbers. Here it is:
 
-total_expenses(expenses):
+**Functions:**
 
-Input: expenses (a list of dictionaries, each representing an expense with 'amount' and 'category' keys)
-Output: Total sum of all expenses
-This function uses the sum function along with map to sum up the 'amount' values for all expenses.
-filter_expenses_by_category(expenses, category):
+- *total_expenses(expenses):*
+  - Input: `expenses` (list of dictionaries with 'amount' and 'category' keys)
+  - Output: Total sum of all expenses
+  - Uses `sum` and `map` functions to calculate the total expense amount.
 
-Input: expenses (list of expenses), category (a string representing the category to filter by)
-Output: Filtered list of expenses for the specified category
-This function uses the filter function to filter expenses based on the specified category.
-main():
+- *filter_expenses_by_category(expenses, category):*
+  - Input: `expenses` (list of expenses), `category` (string to filter by)
+  - Output: Filtered list of expenses for the specified category
+  - Uses the `filter` function to filter expenses based on the category.
 
-This is the main function that handles the user interface and overall flow of the program.
+- *main():*
+  - The main function handling the user interface and program flow.
 
-Main Program:
-Expense List (expenses):
+**Main Program:**
 
-It starts with an empty list, which will store individual expense entries as dictionaries.
-Menu Options:
+- *Expense List (`expenses`):*
+  - An empty list to store individual expense entries as dictionaries.
 
-The program displays a menu with five options:
-Add an expense: Allows the user to input an amount and category to add a new expense to the list.
-List all expenses: Prints all expenses in the list.
-Show total expenses: Displays the total sum of all expenses.
-Filter expenses by category: Asks the user to input a category and then displays expenses only for that category.
-Exit: Exits the program.
+- *Menu Options:*
+  - Add an expense: Input amount and category to add a new expense.
+  - List all expenses: Display all expenses in the list.
+  - Show total expenses: Display the total sum of all expenses.
+  - Filter expenses by category: Input a category to display expenses only for that category.
+  - Exit: Terminate the program.
 
-User Input Handling:
-The program uses a while True loop to keep the user in the menu until they choose to exit.
+- *User Input Handling:*
+  - Uses a `while True` loop to keep the user in the menu until they choose to exit.
 
-Function Calls:
-Depending on the user's choice, the program calls the corresponding functions:
-Add an expense: Calls add_expense (which seems to be missing in your provided code).
-List all expenses: Calls print_expenses.
-Show total expenses: Calls total_expenses.
-Filter expenses by category: Calls filter_expenses_by_category.
-Exiting the Program:
+- *Function Calls:*
+  - Depending on the user's choice, calls corresponding functions:
+    - Add an expense: Calls `add_expense` (missing in your provided code).
+    - List all expenses: Calls `print_expenses`.
+    - Show total expenses: Calls `total_expenses`.
+    - Filter expenses by category: Calls `filter_expenses_by_category`.
 
-If the user chooses to exit (choice == '5'), the program prints a message and breaks out of the loop, ending the execution.
-Improvements Needed:
-The add_expense and print_expenses functions are referenced but not provided in the code. These functions need to be implemented for the program to work correctly.
+- *Exiting the Program:*
+  - If the user chooses to exit (`choice == '5'`), prints a message and ends the program.
 
-Ensure that the add_expense function appends new expense entries to the expenses list.
-
-The overall structure seems to be designed for a modular approach, but some functions are missing. You may need to implement those functions to make the program fully functional.
+- *Improvements Needed:*
+  - `add_expense` and `print_expenses` functions are referenced but not provided in the code. Implement these functions for the program to work.
+  - Ensure `add_expense` appends new expenses to the `expenses` list.
+  - Some functions are missing. Implement them for the program to be fully functional.
 
 
 
